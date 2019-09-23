@@ -1,0 +1,3 @@
+[submodule "HelloWord"]
+	path = HelloWord
+	url = ./HelloWord
