@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class FileWriteReaderTest {
     public static void main(String[] args) {
-        File file = new File("file+test.txt");
+        File file = new File("file_test.txt");
         try (FileWriter fw = new FileWriter(file, true);
              FileReader fr = new FileReader(file);) {
 
